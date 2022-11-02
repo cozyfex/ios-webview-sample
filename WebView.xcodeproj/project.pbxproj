@@ -51,6 +51,7 @@
 		3691016A29124B0F00166DDF /* WebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModel.swift; sourceTree = "<group>"; };
 		3691016C2912502D00166DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3691016E291253C900166DDF /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		A6DFA7E02912AD1F00468905 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 		3691013129124AA200166DDF = {
 			isa = PBXGroup;
 			children = (
+				A6DFA7E02912AD1F00468905 /* README.md */,
 				3691013C29124AA200166DDF /* WebView */,
 				3691014D29124AA500166DDF /* WebViewTests */,
 				3691015729124AA500166DDF /* WebViewUITests */,
