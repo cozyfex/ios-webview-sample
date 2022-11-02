@@ -8,14 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel = WebViewModel()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            WebView(url: "http://127.0.0.1:3000", viewModel: viewModel)
         }
-        .padding()
     }
 }
 

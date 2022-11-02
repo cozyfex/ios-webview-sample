@@ -14,6 +14,9 @@
 		3691014F29124AA500166DDF /* WebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3691014E29124AA500166DDF /* WebViewTests.swift */; };
 		3691015929124AA500166DDF /* WebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3691015829124AA500166DDF /* WebViewUITests.swift */; };
 		3691015B29124AA500166DDF /* WebViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3691015A29124AA500166DDF /* WebViewUITestsLaunchTests.swift */; };
+		3691016929124AEA00166DDF /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3691016829124AEA00166DDF /* WebView.swift */; };
+		3691016B29124B0F00166DDF /* WebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3691016A29124B0F00166DDF /* WebViewModel.swift */; };
+		3691016F291253C900166DDF /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3691016E291253C900166DDF /* Toast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,10 @@
 		3691015429124AA500166DDF /* WebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3691015829124AA500166DDF /* WebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewUITests.swift; sourceTree = "<group>"; };
 		3691015A29124AA500166DDF /* WebViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3691016829124AEA00166DDF /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		3691016A29124B0F00166DDF /* WebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModel.swift; sourceTree = "<group>"; };
+		3691016C2912502D00166DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3691016E291253C900166DDF /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +101,9 @@
 		3691013C29124AA200166DDF /* WebView */ = {
 			isa = PBXGroup;
 			children = (
+				3691016C2912502D00166DDF /* Info.plist */,
+				3691016D291253C900166DDF /* Toast */,
+				3691016729124ACF00166DDF /* WebView */,
 				3691013D29124AA200166DDF /* WebViewApp.swift */,
 				3691013F29124AA200166DDF /* ContentView.swift */,
 				3691014129124AA500166DDF /* Assets.xcassets */,
@@ -125,6 +135,23 @@
 				3691015A29124AA500166DDF /* WebViewUITestsLaunchTests.swift */,
 			);
 			path = WebViewUITests;
+			sourceTree = "<group>";
+		};
+		3691016729124ACF00166DDF /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				3691016829124AEA00166DDF /* WebView.swift */,
+				3691016A29124B0F00166DDF /* WebViewModel.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		3691016D291253C900166DDF /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				3691016E291253C900166DDF /* Toast.swift */,
+			);
+			path = Toast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3691016929124AEA00166DDF /* WebView.swift in Sources */,
 				3691014029124AA200166DDF /* ContentView.swift in Sources */,
+				3691016F291253C900166DDF /* Toast.swift in Sources */,
 				3691013E29124AA200166DDF /* WebViewApp.swift in Sources */,
+				3691016B29124B0F00166DDF /* WebViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +450,7 @@
 				DEVELOPMENT_TEAM = 3NZ66U8NWP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WebView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +480,7 @@
 				DEVELOPMENT_TEAM = 3NZ66U8NWP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WebView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
