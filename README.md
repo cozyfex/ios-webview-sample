@@ -1,9 +1,9 @@
-# Android App for WebView
+# iOS App for WebView
 
 ## Web
 
 [Web Sample](https://github.com/cozyfex/web-app-webview-sample)
 
-## iOS
+## Android
 
-[iOS WebView Sample](https://github.com/cozyfex/ios-webview-sample)
+[Android WebView Sample](https://github.com/cozyfex/android-webview-sample)
